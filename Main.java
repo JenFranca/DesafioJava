@@ -22,7 +22,7 @@ public class Main
                     Votos.main(args);
                     break;
                 case 2:
-                    BubbleSort.bubbleSort(args);
+                    BubbleSort.main(args);
                     break;
                 case 0:
                     System.out.println("Saindo...");
