@@ -2,6 +2,11 @@
 
 import java.util.Scanner;
 
+import src.BubbleSort;
+import src.Fatorial;
+import src.SomaMultiplos;
+import src.Votos;
+
 public class Main 
 {
     public static void main(String[] args) {
@@ -13,6 +18,7 @@ public class Main
             System.out.println("1 - Eleição");
             System.out.println("2 - BubbleSort");
             System.out.println("3 - Fatorial");
+            System.out.println("4 - Soma de Múltiplos");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
 
@@ -27,6 +33,9 @@ public class Main
                     break;
                 case 3:
                     Fatorial.main(args);
+                    break;
+                case 4:
+                    SomaMultiplos.main(args);
                     break;
                 case 0:
                     System.out.println("Saindo...");
