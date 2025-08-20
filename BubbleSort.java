@@ -7,6 +7,7 @@ public class BubbleSort
             Scanner scanner = new Scanner(System.in); //leitura dos numeros
 
             System.out.print("Quantos números você quer ordenar? ");
+            System.out.print("\nEles serão informados por você na próxima etapa:");
             int quantidade = scanner.nextInt();
 
             int[] numeros = new int[quantidade]; //quantidade que o usuario pediu
