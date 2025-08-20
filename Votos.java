@@ -9,12 +9,11 @@ public class Votos
         int votosBrancos = 150;
         int votosNulos = 50;
 
-        System.out.println("");
-        System.out.println("Quantidade de eleitores:");
+
+        System.out.println("\nQuantidade de eleitores:");
         System.out.println("Número de eleitores: " + eleitores);
 
-        System.out.println("");
-        System.out.println("Quantidade de votos:");
+        System.out.println("\nQuantidade de votos:");
         System.out.println("Número de votos válidos: " + votosValidos);
         System.out.println("Número de votos em branco: " + votosBrancos);
         System.out.println("Número de votos nulos: " + votosNulos);  
@@ -25,8 +24,7 @@ public class Votos
         double percentualVotosBrancos = calculadora.calcularPercentualBrancos(votosBrancos, eleitores);
         double percentualVotosNulos = calculadora.calcularPercentualNulos(votosNulos, eleitores);
 
-        System.out.println("");
-        System.out.println("Em porcentagem:");
+        System.out.println("\nEm porcentagem:");
         System.out.println("Percentual de votos válidos: " + percentualVotosValidos + "%");
         System.out.println("Percentual de votos em branco: " + percentualVotosBrancos + "%");
         System.out.println("Percentual de votos nulos: " + percentualVotosNulos + "%");
