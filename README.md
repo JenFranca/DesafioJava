@@ -1,5 +1,5 @@
 # Desafio Java
-Este projeto é um desafio em Java e é uma das etapas de processo seletivo.
+Este projeto é um desafio em Java, dividido em duas partes, sendo elas:
 
 #### Parte 1
 Este módulo é apresentado a partir da escolha das opções a seguir:
